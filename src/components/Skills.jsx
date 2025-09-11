@@ -50,6 +50,7 @@ export default function Skills() {
     
     <div id="skills" className="bg-yellow-700 text-white py-12 px-6">
       <h2 className="text-3xl font-bold text-center mt-10 mb-10">My Skills</h2>
+      <h1>maaz</h1>
 
       <Swiper
         modules={[Autoplay, Pagination]}
