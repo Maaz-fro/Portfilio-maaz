@@ -8,7 +8,7 @@ export default function Experience() {
     {
       company: "Freelancer",
       role: "Software and Developer",
-      duration: "Jul/023 - Aug/024",
+      duration: "Jul/2023 - Aug/2024",
     },
   ];
 
