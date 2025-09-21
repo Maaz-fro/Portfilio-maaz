@@ -1,4 +1,3 @@
-import cvFile from "../assets/cv_25_2.pdf";
 import pics from "../assets/work1.png";
 import pics1 from "../assets/hands2.png";
 import pics2 from "../assets/cv.png";
@@ -33,9 +32,9 @@ export default function Hero() {
           Web Design | UI / UX | Frontend Developer | Web Developer
         </p>
 
-        {/* Social Icons */}
+      
         <div className="grid grid-cols-3 sm:grid-cols-6 gap-4 mt-6 justify-items-center">
-          {/* LinkedIn */}
+        
           <a
             href="https://www.linkedin.com/in/muhammad-maaz-72b0522b8/"
             target="_blank"
@@ -48,7 +47,7 @@ export default function Hero() {
             />
           </a>
 
-          {/* GitHub */}
+        
           <a
             href="https://github.com/Maaz-fro"
             target="_blank"
@@ -62,24 +61,24 @@ export default function Hero() {
           </a>
 
           {/* CV */}
-                {/* <a
-            href="/cv_25_2.pdf"
+                <a
+            href="/Portfilio-maaz/cv_25_2.pdf"
             target="_blank"
-            rel="noopener noreferrer"
+            // rel="noopener noreferrer"
           >
             <img
               src={pics2}
               alt="Download CV"
               className="w-12 h-12 rounded-full p-2 bg-yellow-700 border-4 border-yellow-600 shadow-md hover:scale-110 transition"
             />
-          </a> */}
-          <a href={cvFile} download="Muhammad_Maaz_CV.pdf">
+          </a>
+          {/* <a href={cvFile} download="Muhammad_Maaz_CV.pdf">
   <img
     src={pics2}
     alt="Download CV"
     className="w-12 h-12 rounded-full p-2 bg-yellow-700 border-4 border-yellow-600 shadow-md hover:scale-110 transition"
   />
-</a>
+</a> */}
            
 
 
